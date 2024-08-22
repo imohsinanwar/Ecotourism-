@@ -1,0 +1,54 @@
+.nav{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+#main{
+  width: 100%;
+  margin-top:10px ;
+  /* margin: auto; */
+  /* background-color: aqua; */
+  background-image: url("https://anywhereweroam.com/wp-content/uploads/2021/12/driving-in-iceland.jpg");
+  height: 100vh;
+}
+#insidelogin{
+  margin-top:50px ;
+  width: 70%;
+  display: flex;
+  margin: auto;
+  height: 100%;
+}
+#login{
+/* margin-top: 33px; */
+width: 40%;
+height: 80%;
+/* margin: auto; */
+background-color: rgb(36, 45, 69);
+/* border: 1px solid red; */
+}
+
+#signin{
+  /* margin-top: 33px; */
+  width: 50%;
+  /* margin: auto; */
+  box-shadow: rgba(255, 255, 255, 0.133) 0px 3px 8px;
+  background-color: rgb(29, 131, 204);
+  height: 80%;
+}
+#signin > form > input{
+  width: 80%;
+  display: block;
+  margin: auto;
+  font-size: 25px;
+}
+#heading{
+  padding-left: 56px;
+}
+#logoDiv{
+  width: 60%;
+  margin: auto;
+  margin-top: 40px;
+}
+#logoDiv>img{
+  width: 80%;
+}
